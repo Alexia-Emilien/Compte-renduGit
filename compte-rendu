@@ -1,0 +1,40 @@
+Compte-rendu GitHub
+
+
+
+- Héberger chez Github un projet existant localement :
+Il faut d’abord créer un nouveau dépot sur Github : “new repository”
+Puis il faut se placer dans le dossier où le code source à déplacer se trouve
+afin d’y taper les commandes suivantes : 
+git init → va nous permettre de commencer la modification
+git add “nom document” → cela va permettre l’indexation du document
+git commit -m “first commit” → va nous permettre de valider l’indexation
+	Ici il est possible d’avoir à utiliser nos identifiants Github pour
+	 pouvoir y accéder partout
+git remote add origin [URL du dépot] → permet de placer le document dans 
+	le dépot
+git push -u origin master → permet de “pousser” le document dans le dépot,
+	c’est une validation.
+
+
+
+- Récupérer une copie depuis le dépôt et y travailler localement :
+
+Tout d’abord, veillons à créer le dépôt destiné à accueillir le travail. 
+Pour ce faire, utiliser la commande : git init “nom du dépôt”.
+Un lien est ensuite mis à disposition par Git, le récupérer sur le site, retourner dans le terminal et y écrire  : git clone “url”. Pour cela, il 
+faut se trouver dans le bon dossier.
+On peut donc modifier le fichier grâce à git add “url”.
+Puis, il faut valider ces modifications : git commit -m “information”
+Et, enfin, il ne reste plus qu’à utiliser la commande git push origin master,
+afin de “pousser” les validations.
+
+- Récupération en local d’un projet crée sur Github
+
+git init → va nous permettre de commencer la modification
+git add “nom document” → cela va permettre l’indexation du document
+Récupérer le lien du fichier et écrire la commande  : git clone “url”. 
+
+
+
+

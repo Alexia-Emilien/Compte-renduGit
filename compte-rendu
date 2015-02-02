@@ -35,6 +35,11 @@ git init → va nous permettre de commencer la modification
 git add “nom document” → cela va permettre l’indexation du document
 Récupérer le lien du fichier et écrire la commande  : git clone “url”. 
 
-
+- Modification d'un document
+Pour modifier un document déjà présent dans un répertoire de Github, il faut se trouver dans le dossier ou se trouve le
+fichier (qui aura été réenregistré) et écrire :
+git add nom_fichier
+git commit -m "first commit"
+git push -u
 
 
